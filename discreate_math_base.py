@@ -8,7 +8,7 @@ from openai import OpenAI
 
 # 初始化 OpenAI 客户端，配置 ModelScope 的 API Key 和 Base URL
 client = OpenAI(
-    api_key="", # 请替换成您的ModelScope Access Token
+    api_key="你的_MODELSCOPE_API_KEY_在这里", # 请替换成您的ModelScope Access Token
     base_url="https://api-inference.modelscope.cn/v1/"
 )
 
